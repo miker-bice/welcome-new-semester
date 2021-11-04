@@ -66,3 +66,23 @@ li{
 .nav-items a{
     font-size: 1em;
 }
+.hero-text{
+    text-align: center;
+}
+.hero-text h2{
+    color: var(--primary);
+}
+.hero-text h1{
+    color: var(--secondary);
+    font-size: 5em;
+    line-height: 1.25;
+    margin-bottom: 30px;
+}
+.hero-text h3{
+    color: var(--secondary);
+    width: 50%;
+    margin: 0 auto;
+}
+.hero-text a{
+    margin: 50px 0;
+}
