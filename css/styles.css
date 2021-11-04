@@ -46,3 +46,23 @@ li{
 /* fonts */
 
 /* desktop styles */
+.navigation{
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.navbar-brand img{
+    width: 11em;
+}
+.navbar-brand{
+    grid-column: 1/4;
+}
+.nav-links{
+    grid-column: 9/13;
+}
+.nav-items{
+    justify-content: space-between;
+}
+.nav-items a{
+    font-size: 1em;
+}
