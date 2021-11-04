@@ -1,0 +1,14 @@
+fonts:
+FredokaOne Regular
+OpenSans Regular
+Open Sans Regular
+
+colors:
+#262626
+#e56c78
+
+wrapping:
+width: 3058 pixels
+
+navigation right margin: 170px
+
