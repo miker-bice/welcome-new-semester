@@ -11,7 +11,8 @@
     margin: 0;
 }
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
 }
 a{
     text-decoration: none;
@@ -36,16 +37,23 @@ li{
     background-color: var(--primary);
     color: #fff;
     font-weight: 600;
-    padding: 10px 15px;
+    padding: 15px 20px;
     border-radius: 5px;
 }
 .button:hover{
     background-color: #e9606e;
 }
 
+
 /* fonts */
 
 /* desktop styles */
+.header{
+    background: url(/images/background-resized.jpg) no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    height: 100vh;
+}
 .navigation{
     align-items: center;
     margin-top: 40px;
@@ -65,6 +73,7 @@ li{
 }
 .nav-items a{
     font-size: 1em;
+    color: var(--secondary);
 }
 .hero-text{
     text-align: center;
@@ -77,12 +86,16 @@ li{
     font-size: 5em;
     line-height: 1.25;
     margin-bottom: 30px;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 400;
 }
 .hero-text h3{
     color: var(--secondary);
     width: 50%;
     margin: 0 auto;
+    font-weight: 400;
 }
 .hero-text a{
-    margin: 50px 0;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
