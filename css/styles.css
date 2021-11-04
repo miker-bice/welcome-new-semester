@@ -1,8 +1,47 @@
 /* variables */
+:root{
+    --primary: #e56c78;
+    --secondary: #262626;
+}
 
 /* reset */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
 
 /* base styles */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.flex{
+    display: flex;
+}
+.container-fluid{
+    padding: 0 100px;
+}
+.button{
+    display: inline-block;
+    background-color: var(--primary);
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: #e9606e;
+}
 
 /* fonts */
 
